@@ -1,7 +1,7 @@
 {
-  "name": "{{TOOL_NAME}}",
-  "short_name": "{{TOOL_SHORT_NAME}}",
-  "description": "{{TOOL_DESCRIPTION}}",
+  "name": "XML to JSON Converter",
+  "short_name": "XML↔JSON",
+  "description": "Instantly convert XML to JSON or JSON to XML in your browser. 100% free and private.",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -22,7 +22,7 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "{{BRAND_COLOR}}",
+  "theme_color": "#f97316",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait-primary",

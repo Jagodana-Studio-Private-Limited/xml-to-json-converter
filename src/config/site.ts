@@ -1,174 +1,178 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "XML to JSON Converter",
+  title: "XML to JSON Converter — Free Online XML ↔ JSON Tool",
+  description:
+    "Instantly convert XML to JSON or JSON to XML in your browser. 100% free, no uploads, fully private. Paste your XML or JSON and get clean, formatted output in seconds.",
+  url: "https://xml-to-json-converter.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "FileCode",
+  brandAccentColor: "#f59e0b",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "xml to json converter",
+    "json to xml converter",
+    "xml json online",
+    "convert xml to json free",
+    "xml parser online",
+    "json formatter",
+    "xml formatter",
+    "developer tools",
+    "data conversion",
+    "free xml tool",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#f97316",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/xml-to-json-converter",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "A free, private XML ↔ JSON converter that runs entirely in your browser. No uploads, no accounts, no data stored.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "XML → JSON conversion",
+      "JSON → XML conversion",
+      "Pretty-print & compact output",
+      "One-click copy to clipboard",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "100% Free & Private",
+    titleLine1: "Convert XML to JSON",
+    titleGradient: "Instantly in Your Browser",
+    subtitle:
+      "Paste XML or JSON and get clean, formatted output in milliseconds. No uploads, no accounts — everything stays on your device.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🔄",
+      title: "Bidirectional",
+      description:
+        "Switch between XML→JSON and JSON→XML with a single click. Both directions are equally fast.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🔒",
+      title: "100% Private",
+      description:
+        "All conversion happens in your browser. Nothing is ever sent to a server.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "✨",
+      title: "Pretty or Compact",
+      description:
+        "Toggle between nicely indented output and minified single-line output to suit your workflow.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "JSON Formatter",
+      url: "https://json-formatter.tools.jagodana.com",
+      icon: "📋",
+      description: "Validate, format and minify JSON instantly.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
+      name: "YAML to JSON Converter",
+      url: "https://yaml-json-converter.tools.jagodana.com",
+      icon: "📄",
+      description: "Convert between YAML and JSON with a single click.",
+    },
+    {
+      name: "JSON to CSV Converter",
+      url: "https://json-to-csv-converter.tools.jagodana.com",
+      icon: "📊",
+      description: "Export JSON arrays to CSV for spreadsheets.",
+    },
+    {
+      name: "CSV to JSON Converter",
+      url: "https://csv-to-json-converter.tools.jagodana.com",
+      icon: "📑",
+      description: "Import CSV data and convert to a JSON array.",
+    },
+    {
+      name: "XML Formatter",
+      url: "https://xml-formatter.tools.jagodana.com",
+      icon: "🗂️",
+      description: "Beautify and validate raw XML markup.",
+    },
+    {
+      name: "JSON Diff Viewer",
+      url: "https://json-diff-viewer.tools.jagodana.com",
       icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
-    },
-    {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
-    },
-    {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
-    },
-    {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      description: "Compare two JSON objects and highlight differences.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Paste your XML or JSON",
+      text: "Copy your XML or JSON text and paste it into the input panel on the left.",
+      url: "",
+    },
+    {
+      name: "Choose conversion direction",
+      text: "Select XML → JSON or JSON → XML using the direction toggle above the editor.",
+      url: "",
+    },
+    {
+      name: "Copy the output",
+      text: "The converted result appears instantly in the right panel. Click Copy to copy it to your clipboard.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "Is the XML to JSON conversion done on the server?",
+      answer:
+        "No. All conversion happens entirely in your browser using JavaScript. Your data is never sent to any server, making it completely private and secure.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Does this tool support XML attributes?",
+      answer:
+        "Yes. XML attributes are preserved in the JSON output as a special `@attributes` key on the corresponding object, so no information is lost during conversion.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I convert JSON back to XML?",
+      answer:
+        "Absolutely. Use the direction toggle to switch to JSON → XML mode and paste your JSON object. The tool produces valid, indented XML markup.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What happens with XML namespaces?",
+      answer:
+        "Namespace prefixes (e.g. `soap:Body`) are kept as-is in the JSON key names, preserving the full qualified name so the structure remains unambiguous.",
+    },
+    {
+      question: "Is there a file size limit?",
+      answer:
+        "There is no hard limit enforced by the tool — it depends only on your browser's memory. In practice it handles megabyte-scale documents without issue.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "XML to JSON Converter — Free Online XML ↔ JSON Tool",
+      description:
+        "Instantly convert XML to JSON or JSON to XML in your browser. 100% free, no uploads, fully private.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
